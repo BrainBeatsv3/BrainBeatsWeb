@@ -11,6 +11,15 @@ To run the project locally:
 - Navigate into the scripts sub-directory (from within the root directory) `cd scripts`
 - Run `sudo ./startdev.sh`
 
+# Notes
+
+You will need a `.env` in your backend folder with the following information:
+
+NEXT_JWT_KEY="whateveryouwantinhere"
+DATABASE_URL="mysql://user:password@localhost:3306/BrainBeatsWeb"
+
+You will also need MySQL up and running on your system. Substitute `user` and `password` in the `DATABASE_URL` with those credentials.
+
 # Version Control Instructions
 The `dev` branch is where all work is done, and once ready for the live website you must make a PR (Pull Request) to the main branch. The main branch is set up to directly work with the domain `brainbeats.dev` in a secure fashion.
 
