@@ -16,6 +16,7 @@ To run the project locally:
 You will need a `.env` in your backend folder with the following information:
 
 NEXT_JWT_KEY="whateveryouwantinhere"
+
 DATABASE_URL="mysql://user:password@localhost:3306/BrainBeatsWeb"
 
 You will also need MySQL up and running on your system. Substitute `user` and `password` in the `DATABASE_URL` with those credentials.
