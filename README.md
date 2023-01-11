@@ -29,4 +29,5 @@ For future iterations of BrainBeats looking for more information and some guidan
 
 # Project Showcase Video
 This was our showcase video we sent to the committee prior to our final presentation.
+
 https://youtu.be/wvttb2_AZag
